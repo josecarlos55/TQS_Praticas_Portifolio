@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="233.0">pt.tqsua.cardemo.repo.CarRepository</node>
+    <node x="294.2202380952381" y="0.0">pt.tqsua.cardemo.controller.CarNotFoundException</node>
+    <node x="71.22023809523809" y="527.0">pt.tqsua.cardemo.controller.CarController</node>
+    <node x="104.63690476190476" y="0.0">pt.tqsua.cardemo.entities.Car</node>
+    <node x="17.315476190476176" y="338.0">pt.tqsua.cardemo.services.CarService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pt.tqsua.cardemo.controller.CarController" target="pt.tqsua.cardemo.services.CarService">
+      <point x="-59.33333333333334" y="-69.5" />
+      <point x="100.88690476190474" y="502.0" />
+      <point x="65.81547619047618" y="502.0" />
+      <point x="-48.5" y="69.5" />
+    </edge>
+    <edge source="pt.tqsua.cardemo.repo.CarRepository" target="pt.tqsua.cardemo.entities.Car">
+      <point x="0.0" y="-27.5" />
+      <point x="83.5" y="208.0" />
+      <point x="127.9702380952381" y="208.0" />
+      <point x="-46.66666666666666" y="91.5" />
+    </edge>
+    <edge source="pt.tqsua.cardemo.services.CarService" target="pt.tqsua.cardemo.repo.CarRepository">
+      <point x="-64.66666666666669" y="-69.5" />
+      <point x="49.64880952380949" y="313.0" />
+      <point x="41.75" y="313.0" />
+      <point x="-41.75" y="27.5" />
+    </edge>
+    <edge source="pt.tqsua.cardemo.controller.CarController" target="pt.tqsua.cardemo.entities.Car">
+      <point x="59.33333333333334" y="-69.5" />
+      <point x="219.55357142857144" y="502.0" />
+      <point x="221.81547619047618" y="502.0" />
+      <point x="46.66666666666666" y="91.5" />
+    </edge>
+    <edge source="pt.tqsua.cardemo.services.CarService" target="pt.tqsua.cardemo.entities.Car">
+      <point x="64.66666666666669" y="-69.5" />
+      <point x="178.98214285714286" y="313.0" />
+      <point x="182.19047619047618" y="313.0" />
+      <point x="182.19047619047618" y="208.0" />
+      <point x="174.63690476190476" y="208.0" />
+      <point x="0.0" y="91.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8134110787172012" x="257.0" y="333.0" />
+  <SelectedNodes>
+    <node>pt.tqsua.cardemo.repo.CarRepository</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
